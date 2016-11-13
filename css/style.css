@@ -29,8 +29,6 @@
 
 
 /* 1. IMPORT SECTION */
-@import url("http://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
-
 
 /* 2. BASIC STYLES */
 
@@ -39,7 +37,7 @@ html, body {
 }
 
 body {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 200;
     line-height: 1.7857;
