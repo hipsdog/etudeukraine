@@ -29,48 +29,7 @@
 
 
 /* 1. IMPORT SECTION */
-@font-face {
-  font-family: 'Raleway';
-  font-weight: 200;
-  font-style: normal;
-  src: url('/fonts/Raleway-200/Raleway-200.eot');
-  src: url('/fonts/Raleway-200/Raleway-200.eot?#iefix') format('embedded-opentype'),
-       local('Raleway ExtraLight'),
-       local('Raleway-200'),
-       url('/fonts/Raleway-200/Raleway-200.woff2') format('woff2'),
-       url('/fonts/Raleway-200/Raleway-200.woff') format('woff'),
-       url('/fonts/Raleway-200/Raleway-200.ttf') format('truetype'),
-       url('/fonts/Raleway-200/Raleway-200.svg#Raleway') format('svg');
-}
-
-@font-face {
-  font-family: 'Raleway';
-  font-weight: 300;
-  font-style: normal;
-  src: url('/fonts/Raleway-300/Raleway-300.eot');
-  src: url('/fonts/Raleway-300/Raleway-300.eot?#iefix') format('embedded-opentype'),
-       local('Raleway Light'),
-       local('Raleway-300'),
-       url('/fonts/Raleway-300/Raleway-300.woff2') format('woff2'),
-       url('/fonts/Raleway-300/Raleway-300.woff') format('woff'),
-       url('/fonts/Raleway-300/Raleway-300.ttf') format('truetype'),
-       url('/fonts/Raleway-300/Raleway-300.svg#Raleway') format('svg');
-}
-
-@font-face {
-  font-family: 'Raleway';
-  font-weight: 600;
-  font-style: normal;
-  src: url('/fonts/Raleway-600/Raleway-600.eot');
-  src: url('/fonts/Raleway-600/Raleway-600.eot?#iefix') format('embedded-opentype'),
-       local('Raleway SemiBold'),
-       local('Raleway-600'),
-       url('/fonts/Raleway-600/Raleway-600.woff2') format('woff2'),
-       url('/fonts/Raleway-600/Raleway-600.woff') format('woff'),
-       url('/fonts/Raleway-600/Raleway-600.ttf') format('truetype'),
-       url('/fonts/Raleway-600/Raleway-600.svg#Raleway') format('svg');
-}
-
+@import url("http://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
 
 
 /* 2. BASIC STYLES */
