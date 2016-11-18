@@ -34,12 +34,27 @@
 
 /* 2. BASIC STYLES */
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
 html, body {
     height: 100%;
 }
 
 body {
-		font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 200;
     line-height: 1.7857;
@@ -185,36 +200,46 @@ label {
 
 .st-navbar {
     background-color: #fff;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 0px;
 }
 
 .st-navbar ul {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 .st-navbar ul li a {
     text-transform: uppercase;
     font-weight: 600;
     padding: 0;
-    margin: 14px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.st-navbar .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 .st-navbar ul li a:hover, .st-navbar ul li a:focus {
-    background-color: transparent;
-    color: #000;
+    background-color: #0EACAD;
+    color: #fff;
 }
 
 .st-navbar .navbar-header {
-    margin-top: 22px;
+    margin-top: 5px;
 }
 
 .st-navbar .navbar-toggle .icon-bar {
-    background-color: #000;
+    background-color: #0EACAD;
 }
 
 .st-navbar .navbar-toggle {
-    margin-top: 7px;
+    margin-top: 25px;
     margin-right: 25px;
+    margin-bottom: 15px;
     padding: 0;
     border-radius: 0;
 }
