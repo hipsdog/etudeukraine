@@ -170,7 +170,7 @@ label {
     text-transform: uppercase;
     font-weight: 600;
     padding: 0;
-    margin: 7px;
+    margin: 6px;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -712,8 +712,8 @@ label {
 
 #footer {
     background-color: #262626;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -732,7 +732,7 @@ label {
     position: fixed;
     display: none;
     z-index: 999;
-    bottom: 1.8em;
+    bottom: 0.2em;
     right: 1.8em;
 }
 
@@ -748,7 +748,7 @@ label {
 }
 
 .scroll-up a {
-    background-color: #fff;
+    background-color: #0EACAD;
     display: block;
     width: 40px;
     height: 40px;

@@ -707,8 +707,9 @@ label {
 
 #footer {
     background-color: #262626;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -740,8 +741,8 @@ label {
     position: fixed;
     display: none;
     z-index: 999;
-    bottom: 1.8em;
-    right: 1.8em;
+    bottom: 0.2em;
+    left: 1.8em;
 }
 
 .scroll-up ul {
@@ -756,7 +757,7 @@ label {
 }
 
 .scroll-up a {
-    background-color: #fff;
+    background-color: #0EACAD;
     display: block;
     width: 40px;
     height: 40px;
