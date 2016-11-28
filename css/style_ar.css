@@ -1,15 +1,7 @@
-/*
-	Author: ShapedTheme
-	Template: Cluster
-	Version: 1.0
-	URL: http://shapedtheme.com
-*/
-
 /* 1. IMPORT SECTION */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
 
-/* 2. BASIC STYLES */
+
 
 /* collapse navbar*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -32,11 +24,10 @@ html, body {
 }
 
 body {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 200;
+
+    font-size: 20px;
+    font-weight: 300;
     line-height: 1.7857;
-    letter-spacing: 0.075em;
     color: #333333;
     background-color: #fff;
 }
@@ -75,7 +66,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
@@ -170,7 +160,7 @@ label {
     text-transform: uppercase;
     font-weight: 600;
     padding: 0;
-    margin: 7px;
+    margin: 15px;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -191,7 +181,7 @@ label {
 }
 
 .st-navbar .navbar-brand {
-    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
     font-weight: 900;
     margin-top: 0px;
     margin-bottom: 2px;
@@ -368,7 +358,7 @@ label {
 }
 
 .st-service {
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 .st-service h2 {
@@ -528,7 +518,7 @@ label {
 
 .st-pricing ul li {
     padding: 12px 0;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -669,6 +659,11 @@ label {
     margin: 6px;
 }
 
+
+
+
+
+
 /* 13. CONTACT */
 
 #contact {
@@ -712,8 +707,8 @@ label {
 
 #footer {
     background-color: #262626;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -723,6 +718,19 @@ label {
 
 #footer a:hover {
     color: #fff;
+}
+
+.footer-social-icons {
+    text-align: right;
+}
+
+.footer-social-icons a {
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.footer-social-icons span {
+    margin-right: 10px;
 }
 
 
